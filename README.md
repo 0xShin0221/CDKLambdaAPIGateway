@@ -111,7 +111,7 @@ class LambdaApiGatewaySampleStack(core.Stack): #このClass名は各自の環境
 ✅  lambda-api-gateway-sample
 
 Outputs:
-lambda-api-gateway-sample.LambdawithAPIGatewayEndpoint84F1A697 = https://xxxxxxx.execute-api.us-east-1.amazonaws.com/prod/
+lambda-api-gateway-sample.LambdawithAPIGatewayEndpointXXXXXXX = https://xxxxxxx.execute-api.us-east-1.amazonaws.com/prod/
 
 Stack ARN:
 arn:aws:cloudformation:us-east-1:xxxxxxxxxxxx:stack/lambda-api-gateway-sample/xxxxxxxxxxxxxxxxxx
@@ -134,3 +134,7 @@ $ cdk synth --no-staging > template.yml
 
 また、生成されたCFnのテンプレートファイルとSAM CLI,DynamoDB Localを用いるとローカル環境で検証することも出来るので手元で確認したい時にはこの環境も構築したいところですね。
 [参考のリンク](https://dev.classmethod.jp/articles/cdk-local-develop/)
+
+
+検証したら忘れないうちに
+`$ cdk destroy`
