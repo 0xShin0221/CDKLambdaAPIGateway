@@ -132,9 +132,11 @@ Hello World
 $ cdk synth --no-staging > template.yml
 ```
 
-また、生成されたCFnのテンプレートファイルとSAM CLI,DynamoDB Localを用いるとローカル環境で検証することも出来るので手元で確認したい時にはこの環境も構築したいところですね。
-[参考のリンク](https://dev.classmethod.jp/articles/cdk-local-develop/)
+また、生成されたCFnのテンプレートファイルとSAM CLIを用いてとローカル環境で検証するができます
 
+```sh
+$ sam local start-api -t template.yaml
+```
 
 検証したら忘れないうちに
 `$ cdk destroy`
