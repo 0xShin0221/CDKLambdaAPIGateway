@@ -1,6 +1,4 @@
 
-# Welcome to your CDK Python project!
-
 PythonでCDKを使ってLambda・APIGatewayスタックの作成Tip
 
 記事は[こちら](https://code-recipies.netlify.com/tips/IaaS/cdk/lambda-apigateway)
