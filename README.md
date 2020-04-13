@@ -3,10 +3,6 @@ PythonでCDKを使ってLambda・APIGatewayスタックの作成Tip
 
 記事は[こちら](https://code-recipies.netlify.com/tips/IaaS/cdk/lambda-apigateway)
 
----
-title: PythonでCDKを使ってLambda・APIGatewayスタックの作成Tip
-description: PythonでLamda・API Gatewayをcdkで構築
----
 
 ## Introduction
 PythonでAWS CDKでLambda,APIGatewayのスタックを作成
